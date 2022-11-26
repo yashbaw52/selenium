@@ -51,12 +51,10 @@ public class SeleniumPract {
 		
 		WebElement radio = driver.findElement(By.id("nf-label-class-field-23-1"));
 		
+		radio.click();
 		
-		
-		
-	
-		
-
+		driver.findElement(By.id("nf-field-15")).click();
+					
 	}
 
 }
